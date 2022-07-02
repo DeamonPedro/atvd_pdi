@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('../source.png')
+img = cv2.imread('../assets/images/source_01.png')
 
 cv2.imshow('original', img)
 

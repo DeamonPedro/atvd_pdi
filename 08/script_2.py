@@ -2,7 +2,7 @@ from email.mime import base
 import cv2
 import numpy as np
 
-base_img = cv2.imread('cars.png')
+base_img = cv2.imread('../assets/images/cars.png')
 
 kernel_5 = np.ones((5, 5), np.uint8)
 kernel_7 = np.ones((7, 7), np.uint8)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-base_img = cv2.imread('noise.jpg')
+base_img = cv2.imread('../assets/images/noise.jpg')
 
 ksize = 7
 

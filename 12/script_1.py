@@ -1,6 +1,6 @@
 import cv2
 
-capture = cv2.VideoCapture('video.mp4')
+capture = cv2.VideoCapture('../assets/videos/source_02.mp4')
 
 
 while capture.isOpened():
